@@ -1,0 +1,44 @@
+1. Assignments on Variables
+Objective: Understand variable declaration, initialization, and usage in Java.
+
+Task: Declare variables of different data types (int, double, char, boolean, String) and print their values.
+
+Task: Swap two variables without using a third variable.
+
+Task: Calculate the area of a rectangle using variables for length and breadth.
+
+2. Assignments on Control Statements
+Objective: Learn to use if-else, for, while, and switch statements in Java.
+
+Task: Write a program to check if a number is positive, negative, or zero using if-else.
+
+Task: Print all even numbers from 1 to 50 using a for loop.
+
+Task: Find the factorial of a number using a while loop.
+
+Task: Create a simple calculator using a switch statement. The calculator should support addition, subtraction, multiplication, and division.
+
+3. Assignments on Methods
+Objective: Learn how to define and use methods in Java.
+
+Task: Create a method add(int a, int b) that returns the sum of two numbers. Call this method from the main() method.
+
+Task: Define methods to calculate the perimeter and area of a circle. Use one method for each calculation.
+
+Task: Create a method that checks whether a given number is prime. Call this method from the main() method.
+
+4. Assignments on Instance and Static Variables
+Objective: Understand the difference between instance and static variables in Java.
+
+Task: Create a Student class with the following:
+
+Instance Variables: name, rollNumber.
+Static Variable: collegeName.
+Create multiple objects of the Student class and display their details.
+Task: Write a class with a static method to count the number of objects created.
+
+Task: Create a BankAccount class with the following:
+
+Instance Variables: accountHolderName, balance.
+Static Variable: bankName.
+Add methods: deposit() and withdraw(). Perform transactions and display the updated balance.
