@@ -1,0 +1,22 @@
+OOP Concepts
+Class and Object:
+Create a class named Book with attributes like title, author, price, and a method displayDetails(). Create multiple objects of the class and display their details.
+Inheritance:
+Design a class hierarchy for a Vehicle base class and its derived classes Car and Bike. Add attributes and methods specific to each. Demonstrate the concept of inheritance by overriding a method.
+Polymorphism:
+Implement method overloading for a class named Calculator to perform addition of two integers, three integers, and two double values.
+Abstraction:
+Create an abstract class Shape with an abstract method calculateArea(). Implement this method in subclasses Circle and Rectangle.
+Encapsulation:
+Design a class Employee with private attributes like name, id, and salary. Provide getter and setter methods to access and modify the attributes. Validate the salary to ensure it is positive.
+Interface:
+Create an interface Animal with methods sound() and eat(). Implement this interface in classes Dog and Cat.
+Exception Handling
+Basic Exception Handling:
+Write a Java program that takes two numbers as input and performs division. Handle the case where the denominator is zero using a try-catch block.
+Custom Exceptions:
+Create a custom exception called InvalidAgeException that gets thrown when a user enters an age less than 18. Write a program to demonstrate this.
+Multiple Catch Blocks:
+Write a program that includes multiple catch blocks to handle exceptions like ArrayIndexOutOfBoundsException and NumberFormatException.
+Finally Block:
+Write a program to demonstrate the use of a finally block in exception handling. Ensure the finally block executes regardless of whether an exception occurs or not.
