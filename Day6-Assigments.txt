@@ -1,0 +1,33 @@
+Collections
+List Manipulation:
+Create a program to manage a list of student names. Perform the following operations:
+
+Add 5 student names to the list.
+Remove a student by name.
+Sort the list alphabetically.
+Print the final list.
+Map Operations:
+Write a program to manage an employee directory using a HashMap where the key is the employee ID (Integer) and the value is the employee name.
+
+Add 5 entries to the map.
+Update the name for one employee.
+Check if an employee ID exists in the map.
+Print all employee IDs and names.
+Set Implementation:
+Develop a program to store unique city names using a HashSet. Perform the following:
+
+Add 5 city names to the set.
+Check if a specific city is in the set.
+Remove one city from the set.
+Print all the cities.
+JDBC
+Database Connection:
+Write a program to establish a connection to a MySQL database and print "Connection Successful" if the connection is established, or "Connection Failed" if it fails.
+
+CRUD Operations:
+Create a program to manage a Students table in MySQL with columns: ID (int), Name (varchar), and Grade (varchar).
+
+Insert 3 rows into the table.
+Update the grade of one student.
+Delete a student by ID.
+Retrieve and display all students. 
