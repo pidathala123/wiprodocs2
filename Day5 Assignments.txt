@@ -1,0 +1,145 @@
+Assignment 1: Basic Calculator (Methods and Arithmetic Operations)
+Objective: Learn how to create and use methods for basic operations in Java.
+
+Instructions:
+
+Create a Calculator class that includes the following methods:
+add(int a, int b)
+subtract(int a, int b)
+multiply(int a, int b)
+divide(int a, int b)
+In the main method, create an instance of the Calculator class and perform the operations by calling the respective methods.
+Handle division by zero in the divide() method by returning an appropriate message.
+Example Output:
+
+makefile
+Copy
+Addition: 5 + 3 = 8
+Subtraction: 5 - 3 = 2
+Multiplication: 5 * 3 = 15
+Division: 5 / 3 = 1.666...
+Assignment 2: Student Class (Objects and Instance Variables)
+Objective: Learn to create objects, use constructors, and work with instance variables.
+
+Instructions:
+
+Create a Student class with the following fields:
+name (String)
+age (int)
+marks (double)
+Create a constructor to initialize these fields.
+Create a method called displayInfo() that prints out the student's information (name, age, and marks).
+In the main method, create at least two Student objects and call displayInfo() for each.
+Example Output:
+
+yaml
+Copy
+Name: John, Age: 20, Marks: 85.5
+Name: Alice, Age: 22, Marks: 92.3
+Assignment 3: Employee Class (Encapsulation and Getters/Setters)
+Objective: Understand encapsulation, getters, and setters.
+
+Instructions:
+
+Create an Employee class with the following private fields:
+id (int)
+name (String)
+salary (double)
+Create public getter and setter methods for each field.
+In the main method, create an Employee object, set the values using setters, and display the values using getters.
+Example Output:
+
+yaml
+Copy
+Employee ID: 101
+Employee Name: Mark
+Employee Salary: 55000.0
+Assignment 4: Bank Account (Methods, Constructor, and Object-Oriented Principles)
+Objective: Practice object-oriented principles like methods, constructors, and object interactions.
+
+Instructions:
+
+Create a BankAccount class with:
+accountNumber (String)
+balance (double)
+Create a constructor that initializes these fields.
+Implement the following methods:
+deposit(double amount)
+withdraw(double amount)
+checkBalance()
+In the main method, create a BankAccount object, perform a few deposits and withdrawals, and display the current balance after each transaction.
+Example Output:
+
+yaml
+Copy
+Initial balance: 1000.0
+Deposited: 500.0
+Balance after deposit: 1500.0
+Withdrawn: 200.0
+Balance after withdrawal: 1300.0
+Assignment 5: Inheritance (Animal and Dog Classes)
+Objective: Learn inheritance and method overriding.
+
+Instructions:
+
+Create a base class Animal with:
+A method sound() that prints a generic animal sound.
+Create a subclass Dog that inherits from Animal and overrides the sound() method to print "Bark".
+In the main method, create an object of the Dog class and call the sound() method to demonstrate method overriding.
+Example Output:
+
+yaml
+Copy
+Dog says: Bark
+Assignment 6: Constructor Overloading (Books and Authors)
+Objective: Learn constructor overloading.
+
+Instructions:
+
+Create a Book class with:
+title (String)
+author (String)
+price (double)
+Create two constructors:
+One that initializes only title and author.
+One that initializes title, author, and price.
+In the main method, create at least two Book objects using both constructors and display their details.
+Example Output:
+
+yaml
+Copy
+Book 1: Title: Java Basics, Author: John Doe
+Book 2: Title: Advanced Java, Author: Alice Smith, Price: 29.99
+Assignment 7: Polymorphism (Shape and Area Calculation)
+Objective: Understand polymorphism and method overriding.
+
+Instructions:
+
+Create a base class Shape with a method area() that returns a default area of 0.
+Create two subclasses:
+Circle with a field radius and an overridden area() method that returns the area of the circle (π * radius^2).
+Rectangle with fields length and width, and an overridden area() method that returns the area of the rectangle (length * width).
+In the main method, create objects of both Circle and Rectangle, and call the area() method on both using polymorphism.
+Example Output:
+
+mathematica
+Copy
+Area of Circle: 78.54
+Area of Rectangle: 20
+Assignment 8: Method Overloading (Sum of Numbers)
+Objective: Learn method overloading by creating multiple methods with the same name but different parameters.
+
+Instructions:
+
+Create a class SumCalculator with overloaded methods named sum(). The methods should accept:
+Two integers and return their sum.
+Three integers and return their sum.
+An array of integers and return their sum.
+In the main method, call each overloaded sum() method with appropriate arguments.
+Example Output:
+
+mathematica
+Copy
+Sum of 2 numbers: 5 + 3 = 8
+Sum of 3 numbers: 5 + 3 + 2 = 10
+Sum of array: 1 + 2 + 3 + 4 + 5 = 15
